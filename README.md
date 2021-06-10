@@ -9,6 +9,7 @@ npm i
 ```
 
 #### Entrar en la carpeta pug o ejs
+##### Ejemplo en windows
 
 ```bash
 cd pug o cd ejs
