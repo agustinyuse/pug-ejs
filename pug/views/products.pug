@@ -1,0 +1,26 @@
+extends ./layouts/layout
+block products
+ h1 Vista de productos
+
+
+ unless productListExists
+  div.alert.alert-warning=message
+
+ if productListExists
+  table.table.table-dark
+    thead
+      tr
+        th #
+        th Nombre
+        th Precio
+        th Foto
+    tbody
+      each val in products
+       tr
+        th(scope="row")=val.id
+        td=val.title
+        td=val.price
+        td 
+          img.rounded-sm(style="width: 50px;")(src=val.thumbnail alt="Imagen del producto")
+              
+              

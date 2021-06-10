@@ -1,0 +1,30 @@
+extends ./layouts/layout
+
+block new
+  h2 Ingrese producto
+   
+  form(action="/api/productos/guardar" method="POST")
+    
+      div.form-group
+       label(for="title") Nombre
+       input.form-control#title(
+       type="text"        
+       placeholder="Ingrese nombre"
+       name="title")
+   
+ 
+      div.form-group
+        label(for="price") Precio
+        input.form-control#price(
+        type="text"     
+        placeholder="Ingrese precio"
+        name="price")
+    
+      div.form-group
+        label(for="thumbnail") Imagen
+        input.form-control#thumbnail(
+        type="text"     
+        placeholder="Ingrese imagen"
+        name="thumbnail")
+
+      button.btn.btn-success Enviar
