@@ -1,9 +1,6 @@
-Con respecto a las diferencias entre los motores de plantillas, me resulta más sencillo e intuitivo trabajar
-con el motor ejs, que por cierto me resulta parecido a handlebars. 
+Con respecto a las diferencias entre los motores de plantillas, me resulta más sencillo e intuitivo trabajar con el motor ejs, que por cierto me resulta parecido a handlebars. 
 Mantener el html tal cual se me hace más legible y solo embeber código js cuando sea necesario.
 
-También comprobando en esta página https://www.npmtrends.com/ejs-vs-handlebars-vs-pug , veo claramente
-la superioridad en interacciónes por parte de los devs y eso me da la confianza para elegir cualquiera 
-de estas (Handlebars y ejs).
+También comprobando en esta página https://www.npmtrends.com/ejs-vs-handlebars-vs-pug , veo claramente la superioridad en interacciónes por parte de los devs y eso me da la confianza para elegir cualquiera de estas (Handlebars y ejs).
 
 Al no haber utilizado motores de plantillas en un proyecto real, no puedo exponer demasiado las diferencias.
